@@ -1,7 +1,42 @@
 body {
   background-color: black;
   color: white;
+  display: flex;
+  justify-content: space-between;
 }
 strong {
-  color: #220000;
+  color: #22d4fd;
+}
+
+.contenedorTexto {
+  width: 615px;
+  height: 482px;
+  background-color: #99dadb;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedorTexto h1 {
+  font-family: "Krona One", sans-serif;
+  font-size: 36px;
+}
+
+.contenedorTexto p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+.botones {
+  display: flex;
+  gap: 50px;
+}
+
+.contenedorTexto a {
+  background-color: #22d4fd;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
